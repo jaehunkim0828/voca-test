@@ -182,52 +182,14 @@ function App() {
             나만의 단어장
           </div>
         </button>
-        <div
-          style={{
-            display : "flex",
-            alignItems : "center",
-          }}
-        >
-          <button
-            style={{
-              border : "none",
-              background : "#8FC0A9",
-              width : "5rem",
-              height : "4rem",
-              borderRadius : "5px",
-              
-            }}
-          >
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5f-w3Lw-m2J-WPaKTbdAveReoWglcXu53QhFCCYEFLAY87w/viewform?usp=sf_link">
-              <img 
-                src={feedbackImg} 
-                alt="none" 
-                style={{
-                  width: "3rem"
-                }}
-              />
-            </a>
-          </button>
-          <button
-            style={{
-              border : "none",
-              background : "#68B0AB",
-              width : "5rem",
-              height : "4rem",
-              borderRadius : "5px",
-              margin : " 0 6rem",
-              fontSize : "1.5rem",
-              fontWeight : "700",
-              color: "black",
-              cursor: "pointer",
-            }}
+        <button
+            id="alarm-button"
             onClick={() => window.alert(
               "현재 로그인 기능을 개발하고 있습니다. 로그인 기능이 나오게 된다면 단어장 저장도 가능합니다. 조금만 기다려 주십시요!"
             )}
           >
             알림
           </button>
-        </div>
       </div>
       <div id="container">
         {

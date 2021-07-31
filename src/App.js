@@ -557,6 +557,7 @@ function App() {
             }
           </div>
         }
+        <div>email: jhunkim0828@gmail.com</div>
       </div>
     </div>
   );

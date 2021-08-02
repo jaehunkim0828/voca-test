@@ -214,7 +214,7 @@ function App() {
                 </div>
                 <div className="voca-input">
                   <input
-                    content="user-scalable=no"
+                    content="width=device-width, initial-scale=1, user-scalable=no"
                     placeholder="한글 입력"
                     className="input-style"
                     name="kor-input"
@@ -228,7 +228,7 @@ function App() {
                 </div>
                 <div style={{ marginBottom : "4rem" }} className="voca-input">
                   <input
-                    content="user-scalable=no"
+                    content="width=device-width, initial-scale=1, user-scalable=no"
                     placeholder="영어 입력"
                     className="input-style"
                     name="eng-input"
@@ -429,7 +429,7 @@ function App() {
                               <div className="voca-element" key={i}>{data}</div>
                               <div className="voca-element">
                                 <input
-                                  content="user-scalable=no" 
+                                  content="width=device-width, initial-scale=1, user-scalable=no" 
                                   className="test-inputs" 
                                   name={data} 
                                   onChange={onChange}
@@ -539,7 +539,7 @@ function App() {
                               <div className="voca-element" key={i}>{data}</div>
                               <div className="voca-element">
                                 <input
-                                  content="user-scalable=no" 
+                                  content="width=device-width, initial-scale=1, user-scalable=no" 
                                   className="test-inputs" 
                                   name={data} 
                                   onChange={onChange}

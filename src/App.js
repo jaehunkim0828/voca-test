@@ -184,11 +184,15 @@ function App() {
         </button>
         <button
             id="alarm-button"
-            onClick={() => window.alert(
-              "현재 로그인 기능을 개발하고 있습니다. 로그인 기능이 나오게 된다면 단어장 저장도 가능합니다. 조금만 기다려 주십시요!"
-            )}
+            onClick={() => {
+              if (window.confirm(`새로 로그인 기능이 업데이트 되었습니다. 가서 확인해보세요!`)) {
+                return window.location.href = 'http://3.34.140.114:5000/';
+              } else {
+                return;
+              }
+          }}
           >
-            알림
+            New
           </button>
       </div>
       <div id="container">
